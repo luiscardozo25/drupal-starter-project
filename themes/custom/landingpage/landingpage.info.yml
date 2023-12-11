@@ -1,0 +1,17 @@
+name: Landing Page
+type: theme
+base theme: false
+description: 'Landing Page Custom Theme'
+package: custom
+verison: '1.0.0'
+core_version_requirement: ^8 || ^9 || ^10
+
+libraries:
+  - landingpage/global-styling
+  
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer
